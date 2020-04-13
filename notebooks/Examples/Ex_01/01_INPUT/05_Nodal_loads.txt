@@ -1,0 +1,10 @@
+                  NODAL STATIC LOADS INFORMATION FILE
+NODE        Fx          Fy          Fz          Mx          My          Mz
+1           10.0       0.0         0.0         0.0         0.0         0.0
+2           20.0       0.0         0.0         0.0         0.0         0.0
+3           30.0       0.0         0.0         0.0         0.0         0.0
+
+
+
+
+
