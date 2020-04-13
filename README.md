@@ -27,3 +27,7 @@ In **NLDYNA** a dynamic problem is splitted into several time increments and eac
 A model is defined in **NLDYNA** through 5 easy to write input data files containing: (i) basic problem parameters (ii) nodal point data (iii) element data (iv) loads data and (v) material data. The model can use elements available in the code's own library, specific user defined elements or a combination of both. Similarly, a model can also use **NLDYNA's** available elements in combination with user defined material models.
 
 ![Shaking in 3D building.](./notebooks/img/Model_Page.png)
+
+## Contents:
+
+* [00a: Introductory Notebook](https://nbviewer.jupyter.org/github/AppliedMechanics-EAFIT/Introductory-Finite-Elements/blob/master/notebooks/00a_introductory_notebook.ipynb)
