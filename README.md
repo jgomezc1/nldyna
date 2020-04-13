@@ -38,12 +38,12 @@ A model is defined in **NLDYNA** through 5 easy to write input data files contai
 
 * [User materials](https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/05_UMAT_subroutine.ipynb)
 
-* [Linear static analysis of a two-dimensional frame] (https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/06_Example01.ipynb)
+* [Static analysis of a 2D-frame] (https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/06_Example01.ipynb)
 
-* [Linear dynamic analysis of a two-dimensional frame] (https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/07_Example02.ipynb)
+* [Dynamic analysis of a 2D-frame] (https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/07_Example02.ipynb)
 
 * [Non-linear spring element] (https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/08_Example03.ipynb)
 
-* [Dynamic analysis of a two-dimensional based-isolated frame] (https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/09_Example04.ipynb)
+* [Analysis of a 2D isolated frame] (https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/09_Example04.ipynb)
 
-* [Analysis of a laterally loaded pile foundation] (https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/10_Example05.ipynb)
+* [Laterally loaded pile foundation] (https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/10_Example05.ipynb)
