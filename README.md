@@ -30,10 +30,6 @@ A model is defined in **NLDYNA** through 5 easy to write input data files contai
 
 ![Shaking in 3D building.](./notebooks/img/Model_Page.png)
 
-## SolidsPy.
-This program was written on top of SolidsPy, the 2D Finite Element Analysis By Juan Gomez and Nicolas Guarín-Zapata.
-https://github.com/AppliedMechanics-EAFIT/SolidsPy
-
 ## Contents:
 
 * [Formulation](https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/02_Formulation.ipynb)
@@ -53,3 +49,7 @@ https://github.com/AppliedMechanics-EAFIT/SolidsPy
 * [Analysis of a 2D isolated frame](https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/09_Example04.ipynb)
 
 * [Laterally loaded pile foundation](https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/10_Example05.ipynb)
+
+## SolidsPy.
+This program was written on top of SolidsPy, the 2D Finite Element Analysis By Juan Gomez and Nicolas Guarín-Zapata.
+https://github.com/AppliedMechanics-EAFIT/SolidsPy
