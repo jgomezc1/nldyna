@@ -1,0 +1,9 @@
+                 MATERIAL/SECTION PARAMETERS INFORMATION FILE
+""
+6 parameters for frame elements: A / Iz / E / Density / Alpha-Damp / Betha-Damp
+""
+7 parameters for solids: (Hay que preguntarle al jefe)
+""
+
+PARAMETERS INFORMATION
+0.40   0.016   0.033333   0.005333   1.20   1.20   2000000   0.2   2.4   9.806	0.0   0.0   0.0

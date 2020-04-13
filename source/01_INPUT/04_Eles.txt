@@ -1,0 +1,32 @@
+					  ELEMENT INFORMATION FILE
+""
+5 parameters for frame elements: ID / TYPE / MATERIAL / Ni / Nf
+""
+7 parameters for 4-noded-solids: ID / TYPE / MATERIAL / N1 / N2 / N3 / N4
+""			 
+
+ELEMENTS
+0	10	0	0	4
+1	10	0	1	5
+2	10	0	2	6
+3	10	0	3	7
+4	10	0	4	5
+5	10	0	5	6
+6	10	0	6	7
+7	10	0	7	4
+8	10	0	4	8
+9	10	0	5	9
+10	10	0	6	10
+11	10	0	7	11
+12	10	0	8	9
+13	10	0	9	10
+14	10	0	10	11
+15	10	0	11	8
+16	10	0	8	12
+17	10	0	9	13
+18	10	0	10	14
+19	10	0	11	15
+20	10	0	12	13
+21	10	0	13	14
+22	10	0	14	15
+23	10	0	15	12

@@ -1,0 +1,4 @@
+                                SEISMO GROUND ACCELERATION SIGNAL
+Note:
+Signal's time step should be the same that the specified in the initial global parameters file.
+-----------------------------------------------------------------------------------------------
