@@ -8,6 +8,8 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jgomezc1/nldyna/master)
 
+(Click on the Mybinder badge to execute the NBs in an external jupyter server)
+
 The study of structural systems considering inelastic response was, until very recently, only possible through the use of commercial packages with subsequent limitations as research tools. Commercial packages are very rigid since not all of them allow the addition of independent elements and/or material models as often required in research activities. At the same time the used solvers in commercial codes are of the black-box type making its extension to general tasks an impossible goal. The recent development of high level lenguages (e.g., Python) facilitates the development of highly efficient in-house implementations. This project describes a general in-house finite element assembler and solver aimed at studying the non-linear response of dynamic systems. The code is intended to be used in the testing of material models, complex kinematic formulations and novel structural systems commonly required in research activities. The code has the following features:
 
 * **It is multiphysics oriented:** The code is a general dynamic Newton-Raphson solver where the physical context is provided by the user in terms of material and/or element models.
