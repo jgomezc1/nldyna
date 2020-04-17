@@ -2,7 +2,7 @@
 
 ## Julian Parra.
 
-## This document corresponds to the project required as a partial fullfilment of the requirements for the Master of Engineering degree at Universidad EAFIT.
+## This document corresponds to the project submitted in partial fulfillment of the requirement for the award of Master of Engineering degree at Universidad EAFIT.
 
 ## Introduction
 
