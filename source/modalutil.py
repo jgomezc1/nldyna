@@ -44,6 +44,6 @@ def eigen(inipar, M, K):
          Tmin = min(T)
          #
     # End if  
-    
+    #
     return T, Tmin
      

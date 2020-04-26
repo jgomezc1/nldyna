@@ -1,9 +1,11 @@
-                 MATERIAL/SECTION PARAMETERS INFORMATION FILE
-""
-6 parameters for frame elements: A / Iz / E / Density / Alpha-Damp / Betha-Damp
-""
-7 parameters for solids: (Hay que preguntarle al jefe)
-""
+						MATERIAL/SECTION PARAMETERS INFORMATION FILE
+-----------------------------------------------------------------------------------------------
+Global material's properties definitions. Nonlinear properties should be specified acoording to
+each particular elastoplastic model.
+
+e.g: 6 parameters for 2D frame elements: A / Iz / E / Density / Alpha-Damp / Betha-Damp
+-----------------------------------------------------------------------------------------------
 
 PARAMETERS INFORMATION
-0.25  0.00521  100000  240  0.0  0.0 9.806  10000  150
+0.25   0.0880  0.005208   0.005208   1.20   1.20   2000000   0.2   2.4   9.806	0.0   0.0   0.0
+0.30   0.0124  0.009000   0.006250   1.20   1.20   2000000   0.2   2.4   9.806	0.0   0.0   0.0

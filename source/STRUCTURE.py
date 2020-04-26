@@ -11,6 +11,7 @@ import solutil as sol
 import modalutil as modal
 import constutil as cst
 import postprocesor as pos
+import warnings
 
 def Struct_DYN(folder):
     """  
@@ -18,6 +19,7 @@ def Struct_DYN(folder):
     ----------
     folder = Location of input files
     """
+    warnings.filterwarnings("ignore")
     #--------------------------------------------------------------------------------------------------------------------------------------
     # Pre-processing
     inipar, nodes, mats, elements, Nodal_loads, Msvar, ILF, Seismo_signal, const = pre.readin(folder)

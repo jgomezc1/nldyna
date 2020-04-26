@@ -11,11 +11,12 @@ import femutil as fem
 def readin(folder):
     """Read the input files"""
     inipar        = np.loadtxt(folder + '01_Inipar.txt', ndmin=2, usecols=(0), skiprows=6)
-    nodes         = np.loadtxt(folder + '03_Nodes.txt' , ndmin=2, skiprows=2)
-    loads         = np.loadtxt(folder + '05_Nodal_loads.txt' , ndmin=2, skiprows=2)
+    nodes         = np.loadtxt(folder + '03_Nodes.txt' , ndmin=2, skiprows=3)
+    loads         = np.loadtxt(folder + '05_Nodal_loads.txt' , ndmin=2, skiprows=3)
     #
+    # -------------------------------------------------------------------------------------
     # Read constraints file and identify if there is any diaphfragm or constraint
-    const         = np.loadtxt(folder + '07_DOF_Constraints.txt' , ndmin=2, skiprows=8)
+    const         = np.loadtxt(folder + '07_DOF_Constraints.txt' , ndmin=2, skiprows=9)
     DPH_flag = 0
     CST_flag = 0
     #
@@ -30,6 +31,7 @@ def readin(folder):
     const.insert(0,CST_flag)
     const.insert(0,DPH_flag)
     #
+    # -------------------------------------------------------------------------------------
     #
     NLSTA  = int(inipar[5,0])
     NLDYNA = int(inipar[6,0])
@@ -37,11 +39,12 @@ def readin(folder):
     if (NLSTA == 1) and (NLDYNA == 0):
        Seismo_signal = []
     elif (NLSTA == 0) and (NLDYNA == 1):
-       Seismo_signal = np.loadtxt(folder + '06_Seismo_signal.txt' , skiprows=4)
+       Seismo_signal = np.loadtxt(folder + '06_Seismo_signal.txt' , skiprows=5)
     elif (NLSTA == 1) and (NLDYNA == 1):
-       Seismo_signal = np.loadtxt(folder + '06_Seismo_signal.txt' , skiprows=4)
+       Seismo_signal = np.loadtxt(folder + '06_Seismo_signal.txt' , skiprows=5)
     # End if
     #
+    # -------------------------------------------------------------------------------------   
     # Read material - parameters file
     mat_file = open(folder + '02_Mater.txt', 'r')
     #
@@ -57,6 +60,7 @@ def readin(folder):
          #End if
     #End for
     #
+    # -------------------------------------------------------------------------------------        
     # Read elements file
     eles_file = open(folder + '04_Eles.txt', 'r')
     #
@@ -72,6 +76,7 @@ def readin(folder):
          #End if
     #End for
     #
+    # -------------------------------------------------------------------------------------        
     # Initialize Msvar (List where state variables of each element will be stocked)
     Msvar = []
     ILF   = []
@@ -111,6 +116,7 @@ def readin(folder):
        Msvar.append(ele_svar)
        ILF.append(ele_ilf)
     # End for
+    # -------------------------------------------------------------------------------------   
     return inipar, nodes, mats, elements, loads, Msvar, ILF, Seismo_signal, const
 
 def intparams(inipar):

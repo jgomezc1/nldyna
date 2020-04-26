@@ -535,7 +535,7 @@ def seismic_loadasem(IBC, MG, Seismo_signal, neq, ninc, inipar):
         # End if   
     # End for 
     if flag == 1:
-         print(' ***** Warning: Total time of the seismo signal is greater than solution total time *****')
+         print(' ***** Warning: Total time of seismo signal is greater than solution total time *****')
     # End if
     #      
     return RHSG

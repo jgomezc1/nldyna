@@ -1,9 +1,10 @@
-					  ELEMENT INFORMATION FILE
-""
-5 parameters for frame elements: ID / TYPE / MATERIAL / Ni / Nf
-""
-7 parameters for 4-noded-solids: ID / TYPE / MATERIAL / N1 / N2 / N3 / N4
-""			 
+							  ELEMENT INFORMATION FILE
+--------------------------------------------------------------------------------------
+Element's connectivity information. Element type and connectivity should be specified.
+
+e.g: 5 parameters for frame elements: ID / TYPE / MATERIAL / Ni / Nf
+     7 parameters for 4-noded-solids: ID / TYPE / MATERIAL / N1 / N2 / N3 / N4
+--------------------------------------------------------------------------------------		 
 
 ELEMENTS
 0    2    0    0    1

@@ -20,3 +20,4 @@ Notes:
 0 ............ 
 1 ............ Storage state variables history
 1 ............ Storage internal forces history
+0 ............ Data intentionally left as 0

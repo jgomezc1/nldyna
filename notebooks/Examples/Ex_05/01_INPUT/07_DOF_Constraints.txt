@@ -1,8 +1,9 @@
                                NODES GENERAL CONSTRAINTS INFORMATION FILE
+---------------------------------------------------------------------------------------------------------							   
 Note:
-- Type  0 to n = Floor diaphragm constraints for the case of dynamic or pseudo-static earthquake loading.
-- Type -1 = Any other constraint.
-- If Type = -1, master node for analysis solution should be specified, with MSTND = 1.
+- Type  0 to n = Floor diaphragm constraints.
+- Type -1 = Any other rigid constraint.
+- If Type = -1, master node for analysis solution should be specified, e.g. MSTND = 1.
 - If MSTND = 1 then it is the master node.
 ---------------------------------------------------------------------------------------------------------
 NODE_ID		Type	MSTND	TrasX   TrasY   TrasZ   RotX    RotY    RotZ

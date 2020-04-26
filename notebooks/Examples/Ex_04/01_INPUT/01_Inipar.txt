@@ -4,13 +4,13 @@ Notes:
 - 1 = compute, 0 = don´t compute
 - If NLSTA = 1 and NLDYNA = 1, only computes NLDYNA.
 -------------------------------------------------------------------------
-0.002 ........ DeltaT
-15.0 ......... Total-time
+0.1   ........ DeltaT
+5.0 .......... Total-time
 0.001 ........ Tolerance
 100 .......... Max # iterations
 0 ............
-0 ............ Compute incremental nonlinear static analysis (NLSTA)
-1 ............ Compute time dependent nonlinear dynamic analysis (NLDYNA)
+1 ............ Compute incremental nonlinear static analysis (NLSTA)
+0 ............ Compute time dependent nonlinear dynamic analysis (NLDYNA)
 1 ............ Accel - UX
 0 ............ Accel - UY
 0 ............ Accel - UZ
@@ -20,3 +20,4 @@ Notes:
 0 ............ 
 1 ............ Storage state variables history
 1 ............ Storage internal forces history
+0 ............ Data intentionally left as 0

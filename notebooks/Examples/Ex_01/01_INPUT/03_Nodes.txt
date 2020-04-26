@@ -1,4 +1,5 @@
-                             NODES INFORMATION FILE
+								 NODES INFORMATION FILE
+--------------------------------------------------------------------------------------------							 
 ID          CX          CY          CZ          TrasX   TrasY   TrasZ   RotX    RotY    RotZ          
 0           0.0         0.0         0.0         -1      -1      -1      -1      -1      -1
 1           0.0         2.5         0.0          0       0      -1      -1      -1       0
