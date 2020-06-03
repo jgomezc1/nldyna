@@ -32,23 +32,19 @@ A model is defined in **NLDYNA** through 5 easy to write input data files contai
 
 ## Contents:
 
-* [Formulation](https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/02_Formulation.ipynb)
+* [Formulation: Description of the Newton-Raphson incremetal scheme.](https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/02_Formulation.ipynb)
 
-* [Input files](https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/03_NLDYNA.ipynb)
+* [Input files: Template of input files required to create a model.](https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/03_NLDYNA.ipynb)
 
-* [User elements](https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/04_UEL_subroutine.ipynb)
+* [User elements: Example of a user defined element subroutine.](https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/04_UEL_subroutine.ipynb)
 
-* [User materials](https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/05_UMAT_subroutine.ipynb)
+* [User materials: Example of a user defined material subroutine.](https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/05_UMAT_subroutine.ipynb)
 
-* [Static analysis of a 2D-frame](https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/06_Example01.ipynb)
+## Examples
 
-* [Dynamic analysis of a 2D-frame](https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/07_Example02.ipynb)
+* [Static analysis of a 2D-frame: Basic linear analysis of a 2D frame.](https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/06_Example01.ipynb)
 
-* [Non-linear spring element](https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/08_Example03.ipynb)
-
-* [Analysis of a 2D isolated frame](https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/09_Example04.ipynb)
-
-* [Laterally loaded pile foundation](https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/10_Example05.ipynb)
+* [Dynamic analysis of a 2D-frame: Basic linear dynamic analysis of a 2D frame.](https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/07_Example02.ipynb)
 
 ## SolidsPy.
 This program was written on top of SolidsPy, the 2D Finite Element Analysis By Juan Gomez and Nicolas Guarín-Zapata.
