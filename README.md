@@ -46,6 +46,14 @@ A model is defined in **NLDYNA** through 5 easy to write input data files contai
 
 * [Dynamic analysis of a 2D-frame: Basic linear dynamic analysis of a 2D frame.](https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/07_Example02.ipynb)
 
+* [Rigid diaphragm in 3D-frame: Dynamic analysis of a 3D frame with rigid diaprhagm.](https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/08_Example03.ipynb)
+
+* [Non-linear spring: One-dimensional non-linear spring element.](https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/09_Example04.ipynb)
+
+* [Based-isolated 2D frame: Dynamic analysis of based-isolated 2D frame](https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/10_Example05.ipynb)
+
+* [Laterally loaded pile: Non-linear analysis of a laterally loaded pile foundation](https://nbviewer.jupyter.org/github/jgomezc1/nldyna/blob/master/notebooks/11_Example06.ipynb)
+
 ## SolidsPy.
 This program was written on top of SolidsPy, the 2D Finite Element Analysis By Juan Gomez and Nicolas Guarín-Zapata.
 https://github.com/AppliedMechanics-EAFIT/SolidsPy
