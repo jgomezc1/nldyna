@@ -1,6 +1,6 @@
 # NLDYNA - Nonlinear Dynamic Analysis.
 
-## Julian Parra.
+## By Julian David Parra Cardona.
 
 ## This document describes the results of the project conducted by the main author in partial fulfillment of the requirement to complete the graduate program of Master of Engineering degree at Universidad EAFIT.
 
