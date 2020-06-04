@@ -9,6 +9,7 @@ Analysis.
 """
 from __future__ import division, print_function
 import numpy as np
+import math as mt
 import uelutil as ue
 import femutil as fem
 import uel_solid as slds
@@ -560,7 +561,7 @@ def NewSignal(Tmin, DeltaT, Seismo_signal):
       Array with the updated signal data.
     """
     
-    Ntimes_inter   = int(np.ceil(DeltaT/Tmin))      # Number of needed delta T in the actual interval
+    Ntimes_inter   = mt.ceil(DeltaT/Tmin)           # Number of needed delta T in the actual interval
     New_DeltaT     = DeltaT/Ntimes_inter            # New time step
     Ntimes         = len(Seismo_signal)             # Number of time steps
     T_orig         = np.linspace(0, DeltaT*(Ntimes-1), Ntimes)      
