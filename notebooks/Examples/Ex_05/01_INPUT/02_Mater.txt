@@ -3,7 +3,7 @@
 Global material's properties definitions. Nonlinear properties should be specified acoording to
 each particular elastoplastic model.
 
-e.g: 6 parameters for 2D frame elements: A / Iz / E / Density / Alpha-Damp / Betha-Damp
+e.g: 7 parameters for 2D frame: A / Iz / E / Density / Alpha-Damp / Betha-Damp / Gravity Value
 -----------------------------------------------------------------------------------------------
 
 PARAMETERS INFORMATION
